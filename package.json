@@ -10,7 +10,9 @@
     "url": "git+https://github.com/denissokolov/test.git"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.75.0"
   },
   "private": true
 }
