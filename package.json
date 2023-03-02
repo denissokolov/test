@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Repo for test detecting changes in tc",
   "scripts": {
-    "lint": "eslint"
+    "lint": "eslint .",
+    "lint-ci": "eslint . --format ./node_modules/eslint-teamcity/index.js"
   },
   "repository": {
     "type": "git",
@@ -11,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "eslint": "^8.35.0"
+    "eslint": "^8.35.0",
+    "eslint-teamcity": "^4.0.0"
   }
 }
