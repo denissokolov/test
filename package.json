@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Repo for test detecting changes in tc",
   "scripts": {
-    "test": "eslint"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
